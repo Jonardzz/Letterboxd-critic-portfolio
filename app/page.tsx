@@ -90,6 +90,27 @@ export default function Home() {
                 </div>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+                    {/* Avatar: The Last Airbender (2005) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/ATLA.gif" alt="Avatar The Last Airbender Showcase" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Avatar: The Last Airbender</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2005 &ndash; 2008</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">One of the greatest animated shows ever made with incredible world-building.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Avatar%3A%20The%20Last%20Airbender" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
                     
                     {/* Ben 10 (2005) */}
                     <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
@@ -101,23 +122,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2005 &ndash; 2008</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A classic animated action show with an amazing world and great characters.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
-                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* ATLA Show Card (2005) */}
-                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
-                        <div className="h-40 overflow-hidden relative">
-                            <img src="/gifs/ATLA.gif" alt="Avatar The Last Airbender Showcase" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
-                        </div>
-                        <div className="p-4 pt-5 flex flex-col flex-grow">
-                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Avatar: The Last Airbender</h3>
-                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2005 &ndash; 2008</p>
-                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">One of the greatest animated shows ever made with incredible world-building.</p>
-                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Ben%2010" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -133,7 +143,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2005 &ndash; 2014</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A very fun and unique sitcom about a close group of friends in New York.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=How%20I%20Met%20Your%20Mother" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -149,7 +164,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2008 &ndash; 2010</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A more mature sequel that makes the story and the stakes even bigger.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Ben%2010%3A%20Alien%20Force" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -165,7 +185,54 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2010 &ndash; 2012</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">An exciting continuation with cooler alien powers and a deeper storyline.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Ben%2010%3A%20Ultimate%20Alien" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Regular Show (2010) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Regular Show.gif" alt="Regular Show Showcase" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Regular Show</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2010 &ndash; 2017</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A hilarious animated comedy about two friends dealing with crazy and surreal situations.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Regular%20Show" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Gravity Falls (2012) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Gravity Falls.gif" alt="Gravity Falls Showcase" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Gravity Falls</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2012 &ndash; 2016</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A fun and mysterious animated show about twins spending the summer in a weird town.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Gravity%20Falls" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -181,7 +248,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2012 &ndash; 2014</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A great sequel to Avatar that handles more mature and interesting themes.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=The%20Legend%20of%20Korra" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -197,7 +269,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2021 &ndash; Present</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A brutal and highly exciting superhero show with massive stakes.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Invincible" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -215,6 +292,90 @@ export default function Home() {
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
+                    {/* Schindler's List (1993) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Schindler's List.gif" alt="Schindler's List animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Schindler's List</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1993 &bull; 3h 15m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A powerful and deeply moving historical drama about saving lives during the Holocaust.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Schindler's%20List" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Forrest Gump (1994) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Forrest Gump.gif" alt="Forrest Gump animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Forrest Gump</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1994 &bull; 2h 22m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A beautiful and heartwarming story following a kind man through major historical events.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Forrest%20Gump" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Toy Story (1995) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Toy Story .webp" alt="Toy Story animation webp" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Toy Story</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1995 &bull; 1h 21m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A groundbreaking animated classic about toys coming to life and the meaning of friendship.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Toy%20Story" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Toy Story 2 (1999) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Toy Story 2.gif" alt="Toy Story 2 animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Toy Story 2</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1999 &bull; 1h 32m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A fantastic animated sequel exploring themes of purpose, growing up, and abandonment.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Toy%20Story%202" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Spider-Man (2002) */}
                     <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
                         <div className="h-40 overflow-hidden relative">
@@ -225,7 +386,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2002 &bull; 2h 1m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">The classic superhero origin movie that successfully started it all.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spider-Man" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -241,7 +407,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2004 &bull; 2h 7m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">An amazing sequel focused beautifully on the hard struggles of being a hero.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spider-Man%202" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -257,7 +428,75 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2007 &bull; 2h 19m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">The final trilogy movie exploring forgiveness, pride, and tough personal choices.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spider-Man%203" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* The Dark Knight (2008) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/The Dark Knight.gif" alt="The Dark Knight animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">The Dark Knight</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2008 &bull; 2h 32m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">An incredible and thrilling superhero movie featuring an unforgettable villain performance.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=The%20Dark%20Knight" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Up (2009) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Up.gif" alt="Up animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Up</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2009 &bull; 1h 36m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A touching and adventurous animated film about fulfilling promises and finding new meaning.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Up" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Toy Story 3 (2010) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Toy Story 3.gif" alt="Toy Story 3 animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Toy Story 3</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2010 &bull; 1h 43m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A perfect conclusion to the animated trilogy dealing with moving on and letting go.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Toy%20Story%203" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -273,7 +512,33 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2014 &bull; 2h 49m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A beautiful and emotional sci-fi movie about space travel, time, and family.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Interstellar" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Inside Out (2015) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Inside Out.gif" alt="Inside Out animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Inside Out</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2015 &bull; 1h 35m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A highly creative and emotional animated movie exploring how our feelings work.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Inside%20Out" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -289,7 +554,33 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2017 &bull; 2h 44m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A stunning sci-fi film featuring masterclass visuals and a deep story.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Blade%20Runner%202049" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Avengers: Infinity War (2018) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/Avengers- Infinity Wa.gif" alt="Avengers Infinity War animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">Avengers: Infinity War</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2018 &bull; 2h 29m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A massive and spectacular superhero crossover with incredible action and emotional stakes.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Avengers%3A%20Infinity%20War" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -305,7 +596,33 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2018 &bull; 1h 57m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A visual masterpiece that completely changed the landscape of animation.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spider-Man%3A%20Into%20the%20Spider-Verse" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
+                                <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* The Batman (2022) */}
+                    <div className="bg-[#333b47] rounded-md overflow-hidden hover:-translate-y-1 transition-all duration-300 flex flex-col shadow-lg border border-[#e6ddc5]/5 group">
+                        <div className="h-40 overflow-hidden relative">
+                            <img src="/gifs/The Batman.gif" alt="The Batman animation gif" className="w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-all duration-500" style={ghibliSoftGrade} />
+                        </div>
+                        <div className="p-4 pt-5 flex flex-col flex-grow">
+                            <h3 className="font-bold text-[#e6ddc5] text-lg leading-tight mb-1">The Batman</h3>
+                            <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2022 &bull; 2h 56m</p>
+                            <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A dark, gritty, and incredibly well-shot detective story focusing on a younger hero.</p>
+                            <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=The%20Batman" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -321,7 +638,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2023 &bull; 2h 20m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">An outstanding sequel with mind-blowing art styles across multiple universes.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spider-Man%3A%20Across%20the%20Spider-Verse" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -349,7 +671,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1988 &bull; 1h 29m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A heartbreaking but deeply beautiful movie about surviving war.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Grave%20of%20the%20Fireflies" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -365,7 +692,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">1997 &bull; 2h 14m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">An epic masterpiece tracking the historic battle between humanity and nature.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Princess%20Mononoke" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -381,7 +713,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2001 &bull; 2h 5m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A magical fantasy adventure about a young girl lost in a world of spirits.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Spirited%20Away" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -397,7 +734,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2004 &bull; 1h 59m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A heartwarming fantasy story focused on love, curse-lifting magic, and aging.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=Howl's%20Moving%20Castle" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
@@ -413,7 +755,12 @@ export default function Home() {
                             <p className="text-[#e6ddc5]/50 text-xs font-semibold mb-2 tracking-widest uppercase">2023 &bull; 2h 4m</p>
                             <p className="text-[#e6ddc5]/60 text-sm font-light leading-snug">A beautiful fantasy movie exploring family connections, memory, and dealing with grief.</p>
                             <div className="mt-6 flex items-center justify-between text-xs text-[#e6ddc5]/60 mt-auto pt-4 border-t border-[#e6ddc5]/5">
-                                <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                <div className="flex items-center gap-3">
+                                    <span className="text-[#cfa262] text-sm font-semibold">★★★★★</span>
+                                    <a href="https://www.justwatch.com/us/search?q=The%20Boy%20and%20the%20Heron" target="_blank" rel="noopener noreferrer" className="text-[#e6ddc5]/40 hover:text-[#cfa262] transition-colors" title="Where to watch">
+                                        <i className="fa-solid fa-play text-[10px]"></i>
+                                    </a>
+                                </div>
                                 <a href="https://letterboxd.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[#cfa262] transition-colors flex items-center gap-1 font-medium">Read Review &rsaquo;</a>
                             </div>
                         </div>
