@@ -4,10 +4,6 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Jonatan Rodriguez | Film Critic",
   description: "Film Critic and Cinematic Analyst Portfolio",
-  icons: {
-    icon: "/icon.png?v=3",
-    apple: "/apple-touch-icon.png?v=3",
-  },
 };
 
 export default function RootLayout({
