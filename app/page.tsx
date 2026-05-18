@@ -1,8 +1,16 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Force scroll to top on page refresh
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+  }, []);
 
   // Soft cinematic wash for your posters
   const ghibliSoftGrade = {
@@ -423,7 +431,7 @@ export default function Home() {
                         <p className="text-lg text-[#e6ddc5]/80 font-light leading-relaxed">
                             Feel free to leave any recommendations below to help me expand my cinematic collection and try new things. I am always open to exploring different genres!
                         </p>
-                        <form action="https://formspree.io/f/mojrblqo" method="POST" className="space-y-6 pt-4">
+                        <form action="https://formspree.io/f/maqkwdlg" method="POST" className="space-y-6 pt-4">
                             <input type="text" name="recommendation" required placeholder="Movie or Show Title" className="w-full bg-transparent border-b border-[#e6ddc5]/20 py-2 text-[#e6ddc5] placeholder-[#e6ddc5]/40 focus:outline-none focus:border-[#cfa262] transition-colors font-light" />
                             <textarea name="message" required rows={3} placeholder="Why should I watch it?" className="w-full bg-transparent border-b border-[#e6ddc5]/20 py-2 text-[#e6ddc5] placeholder-[#e6ddc5]/40 focus:outline-none focus:border-[#cfa262] transition-colors font-light resize-none"></textarea>
                             <button type="submit" className="bg-[#cfa262] text-[#2a313d] px-8 py-3 rounded-sm hover:bg-[#e6ddc5] transition-all font-display text-lg tracking-wide font-bold shadow-lg">Send</button>
